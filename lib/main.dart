@@ -34,7 +34,7 @@ class _VideoTelaState extends State<VideoTela> {
   @override
   void initState() {
     super.initState();
-
+//Link do Vídeo
     _controller =
         VideoPlayerController.networkUrl(
             Uri.parse(
